@@ -9,8 +9,8 @@ import dash
 # from app.app_callbacks import register_callbacks
 
 # IMPORTA ARQUIVOS DA PASTA LOCAL ******************************
-from app_layout import *
-from app_callbacks import *
+from app.app_layout import *
+from app.app_callbacks import *
 
 # Configuração dos estilos externos
 #external_stylesheets=['C:\\Users\\Bolsista\\Downloads\\PortScan\\app\\styles.css']
