@@ -1,0 +1,4 @@
+INTRUÇÕES PARA ALGUNS PASSOS DO PROJETO:
+
+- Para instalar os pacotes python (pip), use:
+    $ pip install -r requirements.txt
