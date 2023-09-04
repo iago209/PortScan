@@ -1,0 +1,496 @@
+IP: 150.163.141.1 - Host: atapy1-141.cptec.inpe.br
+  Open Ports:
+199/tcp open  smux
+------------------------
+IP: 150.163.141.2 - Host: atapy2-141.cptec.inpe.br
+  Open Ports:
+199/tcp open  smux
+------------------------
+IP: 150.163.141.5 - Host: abapa1-141.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.141.6 - Host: abapa2-141.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.141.12 - Host: tabapira.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.13 - Host: gelo1-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.15 - Host: garoa1.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7980/tcp  open  quest-vista
+7988/tcp  open  unknown
+8080/tcp  open  http-proxy
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+20043/tcp open  unknown
+20080/tcp open  unknown
+34898/tcp open  unknown
+------------------------
+IP: 150.163.141.16 - Host: orvalho.cptec.inpe.br
+  Open Ports:
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+2049/tcp  open  nfs
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7958/tcp  open  unknown
+7978/tcp  open  unknown
+8080/tcp  open  http-proxy
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+43215/tcp open  unknown
+46186/tcp open  unknown
+------------------------
+IP: 150.163.141.17 - Host: chuvisco1.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7944/tcp  open  unknown
+7952/tcp  open  unknown
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+20004/tcp open  unknown
+20010/tcp open  unknown
+20014/tcp open  opendeploy
+20015/tcp open  unknown
+20017/tcp open  unknown
+20018/tcp open  unknown
+20019/tcp open  unknown
+20020/tcp open  unknown
+20021/tcp open  unknown
+20022/tcp open  unknown
+20023/tcp open  unknown
+20024/tcp open  unknown
+20025/tcp open  unknown
+20026/tcp open  unknown
+20027/tcp open  unknown
+20041/tcp open  unknown
+34943/tcp open  unknown
+------------------------
+IP: 150.163.141.18 - Host: neve.cptec.inpe.br
+  Open Ports:
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+2049/tcp  open  nfs
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7954/tcp  open  unknown
+7962/tcp  open  generalsync
+8080/tcp  open  http-proxy
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+34092/tcp open  unknown
+51491/tcp open  unknown
+------------------------
+IP: 150.163.141.20 - Host: gelo2-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.21 - Host: gelo3-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.23 - Host: chuva1.cptec.inpe.br
+  Open Ports:
+44/tcp   open  mpm-flags
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+514/tcp  open  shell
+4949/tcp open  munin
+5435/tcp open  sceanics
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7972/tcp open  unknown
+7983/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.141.24 - Host: chuva2.cptec.inpe.br
+  Open Ports:
+44/tcp   open  mpm-flags
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+4949/tcp open  munin
+5435/tcp open  sceanics
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7948/tcp open  unknown
+7950/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.141.26 - Host: nublado2.cptec.inpe.br
+  Open Ports:
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+5435/tcp open  sceanics
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7969/tcp open  unknown
+7971/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.141.28 - Host: nublado1.cptec.inpe.br
+  Open Ports:
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+514/tcp  open  shell
+5435/tcp open  sceanics
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7972/tcp open  unknown
+7983/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.141.29 - Host: nublado3.cptec.inpe.br
+  Open Ports:
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+5435/tcp open  sceanics
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7948/tcp open  unknown
+7950/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.141.30 - Host: chuva3.cptec.inpe.br
+  Open Ports:
+44/tcp   open  mpm-flags
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+4949/tcp open  munin
+5435/tcp open  sceanics
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7969/tcp open  unknown
+7971/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.141.31 - Host: chuvisco2.cptec.inpe.br
+  Open Ports:
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7980/tcp  open  quest-vista
+7986/tcp  open  unknown
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+20004/tcp open  unknown
+20010/tcp open  unknown
+20014/tcp open  opendeploy
+20015/tcp open  unknown
+20017/tcp open  unknown
+20018/tcp open  unknown
+20019/tcp open  unknown
+20020/tcp open  unknown
+20021/tcp open  unknown
+20022/tcp open  unknown
+20023/tcp open  unknown
+20024/tcp open  unknown
+20025/tcp open  unknown
+20026/tcp open  unknown
+20027/tcp open  unknown
+20041/tcp open  unknown
+40938/tcp open  unknown
+------------------------
+IP: 150.163.141.32 - Host: chuvisco3.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7951/tcp  open  unknown
+7985/tcp  open  unknown
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+20004/tcp open  unknown
+20010/tcp open  unknown
+20014/tcp open  opendeploy
+20015/tcp open  unknown
+20017/tcp open  unknown
+20018/tcp open  unknown
+20019/tcp open  unknown
+20020/tcp open  unknown
+20021/tcp open  unknown
+20022/tcp open  unknown
+20023/tcp open  unknown
+20024/tcp open  unknown
+20025/tcp open  unknown
+20026/tcp open  unknown
+20027/tcp open  unknown
+20041/tcp open  unknown
+37622/tcp open  unknown
+------------------------
+IP: 150.163.141.33 - Host: garoa2.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7955/tcp  open  unknown
+7967/tcp  open  supercell
+8080/tcp  open  http-proxy
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+37889/tcp open  unknown
+------------------------
+IP: 150.163.141.34 - Host: garoa3.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7976/tcp  open  unknown
+7980/tcp  open  quest-vista
+8080/tcp  open  http-proxy
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+38216/tcp open  unknown
+------------------------
+IP: 150.163.141.36 - Host: tromba.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.38 - Host: leona.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.39 - Host: nevoeiro.cptec.inpe.br
+  Open Ports:
+80/tcp  open  http
+443/tcp open  https
+------------------------
+IP: 150.163.141.40 - Host: rajada.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.41 - Host: gelo4-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.42 - Host: gloria1-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.43 - Host: gloria2-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.44 - Host: gloria3-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.45 - Host: gloria4-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.49 - Host: pororoca.cptec.inpe.br
+  Open Ports:
+44/tcp   open  mpm-flags
+4949/tcp open  munin
+6081/tcp open  geneve
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7947/tcp open  unknown
+7988/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.141.52 - Host: trovao.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+44/tcp   open  mpm-flags
+4949/tcp open  munin
+6379/tcp open  redis
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7939/tcp open  unknown
+7981/tcp open  sossd-collect
+9100/tcp open  jetdirect
+9121/tcp open  unknown
+------------------------
+IP: 150.163.141.54 - Host: taperu.cptec.inpe.br
+  Open Ports:
+388/tcp  open   unidata-ldm
+------------------------
+IP: 150.163.141.55 - Host: tapixaba.cptec.inpe.br
+  Open Ports:
+388/tcp open   unidata-ldm
+------------------------
+IP: 150.163.141.61 - Host: meteoro.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.62 - Host: tempestade.cptec.inpe.br
+  Open Ports:
+5431/tcp open   park-agent
+5435/tcp open   sceanics
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.141.65 - Host: pituna.cptec.inpe.br
+  Open Ports:
+80/tcp   open  http
+8080/tcp open  http-proxy
+------------------------
+IP: 150.163.141.66 - Host: pururuca.cptec.inpe.br
+  Open Ports:
+80/tcp   open  http
+8080/tcp open  http-proxy
+------------------------
+IP: 150.163.141.67 - Host: pocanga.cptec.inpe.br
+  Open Ports:
+80/tcp   open  http
+8080/tcp open  http-proxy
+------------------------
+IP: 150.163.141.69 - Host: royu.cptec.inpe.br
+  Open Ports:
+80/tcp open  http
+------------------------
+IP: 150.163.141.71 - Host: poitara.cptec.inpe.br
+  Open Ports:
+80/tcp open  http
+------------------------
+IP: 150.163.141.72 - Host: pindara.cptec.inpe.br
+  Open Ports:
+80/tcp open  http
+------------------------
+IP: 150.163.141.74 - Host: caitaba.cptec.inpe.br
+  Open Ports:
+80/tcp open  http
+------------------------
+IP: 150.163.141.75 - Host: juaguarundy.cptec.inpe.br
+  Open Ports:
+21/tcp open  ftp
+------------------------
+IP: 150.163.141.76 - Host: mogyb.cptec.inpe.br
+  Open Ports:
+80/tcp   open  http
+8080/tcp open  http-proxy
+------------------------
+IP: 150.163.141.77 - Host: primavera.cptec.inpe.br
+  Open Ports:
+80/tcp  open  http
+443/tcp open  https
+------------------------
+IP: 150.163.141.78 - Host: gaviao.cptec.inpe.br
+  Open Ports:
+5432/tcp open  postgresql
+------------------------
+IP: 150.163.141.79 - Host: myky.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+5432/tcp open  postgresql
+------------------------
+IP: 150.163.141.80 - Host: robiapira.cptec.inpe.br
+  Open Ports:
+5432/tcp open  postgresql
+------------------------
+IP: 150.163.141.81 - Host: falaropo.cptec.inpe.br
+  Open Ports:
+80/tcp  open   http
+------------------------
+IP: 150.163.141.83 - Host: dm2.cptec.inpe.br
+  Open Ports:
+80/tcp  open  http
+443/tcp open  https
+------------------------
+IP: 150.163.141.85 - Host: geada.cptec.inpe.br
+  Open Ports:
+44/tcp   open  mpm-flags
+111/tcp  open  rpcbind
+5000/tcp open  upnp
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7947/tcp open  unknown
+7977/tcp open  unknown
+8080/tcp open  http-proxy
+8081/tcp open  blackice-icecap
+8082/tcp open  blackice-alerts
+8083/tcp open  us-srv
+8084/tcp open  unknown
+8085/tcp open  unknown
+9000/tcp open  cslistener
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.141.87 - Host: trovao2.cptec.inpe.br
+  Open Ports:
+44/tcp   open  mpm-flags
+6379/tcp open  redis
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7941/tcp open  unknown
+7959/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.141.120 - Host: atiaia.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.141.121 - Host: corumba.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.141.122 - Host: dns-2.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.141.130 - Host: mondori1-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.131 - Host: mondori2-141.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.141.149 - Host: ubiru.cptec.inpe.br
+  Open Ports:
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+388/tcp   open  unidata-ldm
+39042/tcp open  unknown
+43479/tcp open  unknown
+------------------------
+IP: 150.163.141.154 - Host: taixi.cptec.inpe.br
+  Open Ports:
+25/tcp   open     smtp
+44/tcp   open     mpm-flags
+111/tcp  open     rpcbind
+9100/tcp open     jetdirect
+------------------------
+IP: 150.163.141.161 - Host: mondori-141.cptec.inpe.br
+  Open Ports:
+199/tcp open  smux
+------------------------
+IP: 150.163.141.175 - Host: taoca.cptec.inpe.br
+  Open Ports:
+21/tcp  open  ftp
+80/tcp  open  http
+443/tcp open  https
+------------------------
+IP: 150.163.141.227 - Host: tumbyra.cptec.inpe.br
+  Open Ports:
+44/tcp    open  mpm-flags
+111/tcp   open  rpcbind
+388/tcp   open  unidata-ldm
+37476/tcp open  unknown
+60071/tcp open  unknown
+------------------------
+IP: 150.163.141.254 - Host: atapy-141.cptec.inpe.br
+  Open Ports:
+199/tcp open  smux
+------------------------

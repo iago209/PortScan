@@ -1,0 +1,1461 @@
+IP: 150.163.147.1 - Host: dns-147.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.147.2 - Host: dns-1-147.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.147.3 - Host: dns-2-147.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.147.5 - Host: abapa1.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.147.6 - Host: abapa2.cptec.inpe.br
+  Open Ports:
+53/tcp open  domain
+------------------------
+IP: 150.163.147.10 - Host: aju-147.cptec.inpe.br
+  Open Ports:
+80/tcp   open  http
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7939/tcp open  unknown
+7944/tcp open  unknown
+------------------------
+IP: 150.163.147.11 - Host: bacabeira.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+25/tcp   open  smtp
+111/tcp  open  rpcbind
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.13 - Host: tacareta.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+730/tcp   open  netviewdm2
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7945/tcp  open  unknown
+7974/tcp  open  unknown
+9100/tcp  open  jetdirect
+44478/tcp open  unknown
+------------------------
+IP: 150.163.147.14 - Host: tabai.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.15 - Host: petropolis.cptec.inpe.br
+  Open Ports:
+21/tcp    open  ftp
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+443/tcp   open  https
+873/tcp   open  rsync
+1700/tcp  open  mps-raft
+5901/tcp  open  vnc-1
+6001/tcp  open  X11:1
+38658/tcp open  unknown
+39720/tcp open  unknown
+47043/tcp open  unknown
+------------------------
+IP: 150.163.147.16 - Host: catanduva.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.17 - Host: itaquara.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+791/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7959/tcp  open  unknown
+7977/tcp  open  unknown
+9100/tcp  open  jetdirect
+44783/tcp open  unknown
+------------------------
+IP: 150.163.147.18 - Host: tape.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.19 - Host: potiri.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+5666/tcp open  nrpe
+------------------------
+IP: 150.163.147.20 - Host: satuba.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+750/tcp   open  kerberos
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7947/tcp  open  unknown
+7988/tcp  open  unknown
+9100/tcp  open  jetdirect
+41966/tcp open  unknown
+42952/tcp open  unknown
+------------------------
+IP: 150.163.147.21 - Host: sunray-b.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+4949/tcp  open  munin
+27000/tcp open  flexlm0
+48383/tcp open  unknown
+56848/tcp open  unknown
+------------------------
+IP: 150.163.147.22 - Host: jaguari.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+4330/tcp  open  dey-sapi
+4949/tcp  open  munin
+9100/tcp  open  jetdirect
+35858/tcp open  unknown
+44321/tcp open  pmcd
+44322/tcp open  pmcdproxy
+------------------------
+IP: 150.163.147.23 - Host: pedreira.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+3000/tcp  open  ppp
+9090/tcp  open  zeus-admin
+9100/tcp  open  jetdirect
+36075/tcp open  unknown
+------------------------
+IP: 150.163.147.24 - Host: lajes.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+38441/tcp open  unknown
+------------------------
+IP: 150.163.147.25 - Host: uberaba.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+767/tcp   open  phonebook
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7968/tcp  open  unknown
+7975/tcp  open  unknown
+8074/tcp  open  gadugadu
+9100/tcp  open  jetdirect
+40757/tcp open  unknown
+------------------------
+IP: 150.163.147.26 - Host: ribeira.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+889/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7958/tcp  open  unknown
+7987/tcp  open  unknown
+9100/tcp  open  jetdirect
+38816/tcp open  unknown
+------------------------
+IP: 150.163.147.27 - Host: castelo.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+25/tcp   open  smtp
+111/tcp  open  rpcbind
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.28 - Host: floreal.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+5431/tcp  open  park-agent
+5432/tcp  open  postgresql
+5435/tcp  open  sceanics
+9100/tcp  open  jetdirect
+38913/tcp open  unknown
+------------------------
+IP: 150.163.147.29 - Host: grs-olinda.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.30 - Host: caninde.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+25/tcp   open  smtp
+111/tcp  open  rpcbind
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.31 - Host: tatinga.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.32 - Host: itajobi.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+715/tcp   open  iris-lwz
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7960/tcp  open  unknown
+7977/tcp  open  unknown
+9100/tcp  open  jetdirect
+38259/tcp open  unknown
+------------------------
+IP: 150.163.147.33 - Host: faro.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.34 - Host: matina.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.35 - Host: borebi.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+879/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7969/tcp  open  unknown
+7974/tcp  open  unknown
+9100/tcp  open  jetdirect
+45453/tcp open  unknown
+------------------------
+IP: 150.163.147.37 - Host: bambui.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.38 - Host: tatua.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+633/tcp   open  servstat
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7959/tcp  open  unknown
+7965/tcp  open  unknown
+9100/tcp  open  jetdirect
+33025/tcp open  unknown
+------------------------
+IP: 150.163.147.39 - Host: beberibe.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+32967/tcp open  unknown
+------------------------
+IP: 150.163.147.40 - Host: ibicoara.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.41 - Host: tacyra.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+796/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7954/tcp  open  unknown
+7985/tcp  open  unknown
+9100/tcp  open  jetdirect
+9505/tcp  open  unknown
+44854/tcp open  unknown
+------------------------
+IP: 150.163.147.42 - Host: taciba.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+861/tcp   open  owamp-control
+1021/tcp  open  exp1
+2049/tcp  open  nfs
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7952/tcp  open  unknown
+7973/tcp  open  unknown
+9100/tcp  open  jetdirect
+38418/tcp open  unknown
+38514/tcp open  unknown
+43664/tcp open  unknown
+46491/tcp open  unknown
+47455/tcp open  unknown
+------------------------
+IP: 150.163.147.43 - Host: tajipuru.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+611/tcp   open  npmp-gui
+2049/tcp  open  nfs
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7958/tcp  open  unknown
+7960/tcp  open  unknown
+9100/tcp  open  jetdirect
+36498/tcp open  unknown
+41815/tcp open  unknown
+46762/tcp open  unknown
+------------------------
+IP: 150.163.147.44 - Host: florianopolis.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+38543/tcp open  unknown
+57921/tcp open  unknown
+------------------------
+IP: 150.163.147.45 - Host: taguai.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+34601/tcp open  unknown
+36091/tcp open  unknown
+43147/tcp open  unknown
+53415/tcp open  unknown
+54309/tcp open  unknown
+------------------------
+IP: 150.163.147.46 - Host: banzae.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.47 - Host: tapeti.cptec.inpe.br
+  Open Ports:
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+5985/tcp  open  wsman
+49154/tcp open  unknown
+49155/tcp open  unknown
+------------------------
+IP: 150.163.147.48 - Host: taperi.cptec.inpe.br
+  Open Ports:
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+5432/tcp  open  postgresql
+47001/tcp open  winrm
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+------------------------
+IP: 150.163.147.49 - Host: buique.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+33043/tcp open  unknown
+------------------------
+IP: 150.163.147.50 - Host: fama.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+742/tcp   open  netrcs
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7952/tcp  open  unknown
+7975/tcp  open  unknown
+9100/tcp  open  jetdirect
+39519/tcp open  unknown
+48447/tcp open  unknown
+------------------------
+IP: 150.163.147.51 - Host: fronteira.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+857/tcp   open  unknown
+3141/tcp  open  vmodem
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7942/tcp  open  unknown
+7960/tcp  open  unknown
+9100/tcp  open  jetdirect
+46354/tcp open  unknown
+------------------------
+IP: 150.163.147.52 - Host: urandi.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+44999/tcp open  unknown
+------------------------
+IP: 150.163.147.53 - Host: maua.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.54 - Host: calcado.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+35947/tcp open  unknown
+42045/tcp open  unknown
+------------------------
+IP: 150.163.147.55 - Host: jerico.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+39549/tcp open  unknown
+55969/tcp open  unknown
+------------------------
+IP: 150.163.147.56 - Host: itanhandu.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+40073/tcp open  unknown
+47057/tcp open  unknown
+------------------------
+IP: 150.163.147.57 - Host: mage.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+848/tcp   open  gdoi
+3142/tcp  open  apt-cacher
+6502/tcp  open  netop-rc
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7946/tcp  open  unknown
+7977/tcp  open  unknown
+9100/tcp  open  jetdirect
+42736/tcp open  unknown
+------------------------
+IP: 150.163.147.58 - Host: cezarina.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.59 - Host: marau.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+669/tcp   open  meregister
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7952/tcp  open  unknown
+7987/tcp  open  unknown
+9100/tcp  open  jetdirect
+41410/tcp open  unknown
+------------------------
+IP: 150.163.147.60 - Host: marapoama.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+675/tcp   open  dctp
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7963/tcp  open  unknown
+7982/tcp  open  sossd-agent
+9100/tcp  open  jetdirect
+39163/tcp open  unknown
+------------------------
+IP: 150.163.147.61 - Host: malta.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+688/tcp  open  realm-rusd
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7964/tcp open  unknown
+7983/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.62 - Host: pratania.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+875/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7947/tcp  open  unknown
+7976/tcp  open  unknown
+9100/tcp  open  jetdirect
+46465/tcp open  unknown
+------------------------
+IP: 150.163.147.63 - Host: minduri.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+659/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7976/tcp  open  unknown
+7977/tcp  open  unknown
+9100/tcp  open  jetdirect
+34241/tcp open  unknown
+------------------------
+IP: 150.163.147.64 - Host: osasco.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+690/tcp   open  vatp
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7939/tcp  open  unknown
+7959/tcp  open  unknown
+9100/tcp  open  jetdirect
+32970/tcp open  unknown
+------------------------
+IP: 150.163.147.67 - Host: itati.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+37301/tcp open  unknown
+------------------------
+IP: 150.163.147.68 - Host: jaciara.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+658/tcp   open  tenfold
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7945/tcp  open  unknown
+7950/tcp  open  unknown
+9100/tcp  open  jetdirect
+46623/tcp open  unknown
+------------------------
+IP: 150.163.147.72 - Host: jabora.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+443/tcp   open  https
+732/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7944/tcp  open  unknown
+7959/tcp  open  unknown
+8080/tcp  open  http-proxy
+8443/tcp  open  https-alt
+9090/tcp  open  zeus-admin
+9100/tcp  open  jetdirect
+38120/tcp open  unknown
+------------------------
+IP: 150.163.147.73 - Host: tailandia.cptec.inpe.br
+  Open Ports:
+22/tcp  open  ssh
+111/tcp open  rpcbind
+905/tcp open  unknown
+------------------------
+IP: 150.163.147.74 - Host: tagoa.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+689/tcp  open  nmap
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7963/tcp open  unknown
+7970/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.75 - Host: herculandia.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+727/tcp   open  unknown
+3306/tcp  open  mysql
+5432/tcp  open  postgresql
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7949/tcp  open  unknown
+7982/tcp  open  sossd-agent
+8080/tcp  open  http-proxy
+8082/tcp  open  blackice-alerts
+9001/tcp  open  tor-orport
+9100/tcp  open  jetdirect
+9999/tcp  open  abyss
+43782/tcp open  unknown
+------------------------
+IP: 150.163.147.76 - Host: taboca.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.77 - Host: tabajy.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+631/tcp   open  ipp
+978/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7972/tcp  open  unknown
+7983/tcp  open  unknown
+19999/tcp open  dnp-sec
+47631/tcp open  unknown
+59923/tcp open  unknown
+------------------------
+IP: 150.163.147.80 - Host: guarulhos1.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+951/tcp   open  unknown
+966/tcp   open  unknown
+975/tcp   open  securenetpro-sensor
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7947/tcp  open  unknown
+7960/tcp  open  unknown
+9100/tcp  open  jetdirect
+44187/tcp open  unknown
+------------------------
+IP: 150.163.147.81 - Host: marilena.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+776/tcp  open  wpages
+4949/tcp open  munin
+6081/tcp open  geneve
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7939/tcp open  unknown
+7940/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.82 - Host: juazeiro.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+111/tcp  open  rpcbind
+8000/tcp open  http-alt
+9000/tcp open  cslistener
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.84 - Host: concordia.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+670/tcp   open  vacdsm-sws
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7946/tcp  open  unknown
+7978/tcp  open  unknown
+9100/tcp  open  jetdirect
+40396/tcp open  unknown
+------------------------
+IP: 150.163.147.85 - Host: tejubina.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+887/tcp   open  iclcnet_svinfo
+2222/tcp  open  EtherNetIP-1
+4330/tcp  open  dey-sapi
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7967/tcp  open  supercell
+7986/tcp  open  unknown
+19999/tcp open  dnp-sec
+38824/tcp open  unknown
+40646/tcp open  unknown
+44321/tcp open  pmcd
+44322/tcp open  pmcdproxy
+44323/tcp open  pmwebapi
+------------------------
+IP: 150.163.147.86 - Host: petrolina.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+3141/tcp  open  vmodem
+9100/tcp  open  jetdirect
+44017/tcp open  unknown
+48137/tcp open  unknown
+------------------------
+IP: 150.163.147.87 - Host: carpina.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+712/tcp   open  tbrpf
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7978/tcp  open  unknown
+7979/tcp  open  micromuse-ncps
+9100/tcp  open  jetdirect
+41843/tcp open  unknown
+------------------------
+IP: 150.163.147.88 - Host: cacule.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+661/tcp   open  hap
+4038/tcp  open  fazzt-ptp
+4039/tcp  open  fazzt-admin
+5432/tcp  open  postgresql
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7940/tcp  open  unknown
+7959/tcp  open  unknown
+9100/tcp  open  jetdirect
+39183/tcp open  unknown
+------------------------
+IP: 150.163.147.90 - Host: tecoara.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+798/tcp   open  unknown
+3141/tcp  open  vmodem
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7965/tcp  open  unknown
+7976/tcp  open  unknown
+9100/tcp  open  jetdirect
+43286/tcp open  unknown
+------------------------
+IP: 150.163.147.95 - Host: itapebi.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+653/tcp   open  repscmd
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7949/tcp  open  unknown
+7965/tcp  open  unknown
+9100/tcp  open  jetdirect
+43205/tcp open  unknown
+------------------------
+IP: 150.163.147.98 - Host: iraquara.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+3306/tcp  open  mysql
+6379/tcp  open  redis
+9100/tcp  open  jetdirect
+45361/tcp open  unknown
+45363/tcp open  unknown
+------------------------
+IP: 150.163.147.99 - Host: aux17.cptec.inpe.br
+  Open Ports:
+22/tcp open  ssh
+------------------------
+IP: 150.163.147.100 - Host: abacate.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.103 - Host: gramado.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+25/tcp   open  smtp
+111/tcp  open  rpcbind
+788/tcp  open  unknown
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7963/tcp open  unknown
+7984/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.104 - Host: pontal.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+44055/tcp open  unknown
+------------------------
+IP: 150.163.147.107 - Host: tabanga.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.108 - Host: itajai.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+776/tcp   open  wpages
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7964/tcp  open  unknown
+7965/tcp  open  unknown
+9100/tcp  open  jetdirect
+34071/tcp open  unknown
+------------------------
+IP: 150.163.147.114 - Host: brasilia.cptec.inpe.br
+  Open Ports:
+22/tcp open  ssh
+80/tcp open  http
+------------------------
+IP: 150.163.147.120 - Host: penapolis.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+860/tcp   open  iscsi
+4038/tcp  open  fazzt-ptp
+4039/tcp  open  fazzt-admin
+5432/tcp  open  postgresql
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7951/tcp  open  unknown
+7987/tcp  open  unknown
+9100/tcp  open  jetdirect
+46741/tcp open  unknown
+------------------------
+IP: 150.163.147.121 - Host: mambai.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+836/tcp   open  unknown
+6605/tcp  open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7942/tcp  open  unknown
+7945/tcp  open  unknown
+9100/tcp  open  jetdirect
+33217/tcp open  unknown
+46640/tcp open  unknown
+------------------------
+IP: 150.163.147.122 - Host: urupema.cptec.inpe.br
+  Open Ports:
+22/tcp open  ssh
+------------------------
+IP: 150.163.147.123 - Host: brejo.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+40367/tcp open  unknown
+------------------------
+IP: 150.163.147.125 - Host: sarandi.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+757/tcp  open  unknown
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7965/tcp open  unknown
+7969/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.127 - Host: tara.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+986/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7972/tcp  open  unknown
+7975/tcp  open  unknown
+9100/tcp  open  jetdirect
+41973/tcp open  unknown
+------------------------
+IP: 150.163.147.128 - Host: birigui.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+831/tcp   open  netconf-beep
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7969/tcp  open  unknown
+7978/tcp  open  unknown
+8080/tcp  open  http-proxy
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+9101/tcp  open  jetdirect
+20004/tcp open  unknown
+20010/tcp open  unknown
+20014/tcp open  opendeploy
+20015/tcp open  unknown
+20017/tcp open  unknown
+20018/tcp open  unknown
+20019/tcp open  unknown
+20020/tcp open  unknown
+20021/tcp open  unknown
+20022/tcp open  unknown
+20023/tcp open  unknown
+20024/tcp open  unknown
+20025/tcp open  unknown
+20026/tcp open  unknown
+20027/tcp open  unknown
+20041/tcp open  unknown
+20043/tcp open  unknown
+20080/tcp open  unknown
+36636/tcp open  unknown
+------------------------
+IP: 150.163.147.130 - Host: ijaci.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+675/tcp   open  dctp
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7953/tcp  open  unknown
+7973/tcp  open  unknown
+9100/tcp  open  jetdirect
+33620/tcp open  unknown
+------------------------
+IP: 150.163.147.132 - Host: ilopolis.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+884/tcp   open  unknown
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7949/tcp  open  unknown
+7981/tcp  open  sossd-collect
+9100/tcp  open  jetdirect
+46442/tcp open  unknown
+------------------------
+IP: 150.163.147.135 - Host: baldim.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+846/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7944/tcp  open  unknown
+7968/tcp  open  unknown
+9100/tcp  open  jetdirect
+44705/tcp open  unknown
+------------------------
+IP: 150.163.147.136 - Host: itarana.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+757/tcp   open  unknown
+3141/tcp  open  vmodem
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7957/tcp  open  unknown
+7967/tcp  open  supercell
+9100/tcp  open  jetdirect
+42932/tcp open  unknown
+------------------------
+IP: 150.163.147.137 - Host: batatais.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+870/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7949/tcp  open  unknown
+7952/tcp  open  unknown
+8080/tcp  open  http-proxy
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+9101/tcp  open  jetdirect
+20004/tcp open  unknown
+20010/tcp open  unknown
+20014/tcp open  opendeploy
+20015/tcp open  unknown
+20017/tcp open  unknown
+20018/tcp open  unknown
+20019/tcp open  unknown
+20020/tcp open  unknown
+20021/tcp open  unknown
+20022/tcp open  unknown
+20023/tcp open  unknown
+20024/tcp open  unknown
+20025/tcp open  unknown
+20026/tcp open  unknown
+20027/tcp open  unknown
+20041/tcp open  unknown
+20043/tcp open  unknown
+20080/tcp open  unknown
+45787/tcp open  unknown
+------------------------
+IP: 150.163.147.138 - Host: quilombo.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+3141/tcp  open  vmodem
+9100/tcp  open  jetdirect
+37437/tcp open  unknown
+43529/tcp open  unknown
+------------------------
+IP: 150.163.147.139 - Host: indiana.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+716/tcp   open  pana
+3142/tcp  open  apt-cacher
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7940/tcp  open  unknown
+7961/tcp  open  unknown
+9100/tcp  open  jetdirect
+38848/tcp open  unknown
+------------------------
+IP: 150.163.147.149 - Host: paranaita.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+697/tcp   open  uuidgen
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7942/tcp  open  unknown
+7986/tcp  open  unknown
+9100/tcp  open  jetdirect
+35707/tcp open  unknown
+------------------------
+IP: 150.163.147.152 - Host: botupora.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+682/tcp   open  xfr
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7973/tcp  open  unknown
+7981/tcp  open  sossd-collect
+9100/tcp  open  jetdirect
+40658/tcp open  unknown
+------------------------
+IP: 150.163.147.153 - Host: capela.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+716/tcp   open  pana
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7962/tcp  open  generalsync
+7984/tcp  open  unknown
+9100/tcp  open  jetdirect
+43576/tcp open  unknown
+------------------------
+IP: 150.163.147.154 - Host: suzano.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+691/tcp   open  resvc
+3141/tcp  open  vmodem
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7949/tcp  open  unknown
+7956/tcp  open  unknown
+9100/tcp  open  jetdirect
+44054/tcp open  unknown
+------------------------
+IP: 150.163.147.155 - Host: guararapes.cptec.inpe.br
+guararapes
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+36447/tcp open  unknown
+45173/tcp open  unknown
+------------------------
+IP: 150.163.147.156 - Host: itacurubi.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+757/tcp  open  unknown
+4949/tcp open  munin
+6081/tcp open  geneve
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7964/tcp open  unknown
+7967/tcp open  supercell
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.157 - Host: barbalhas.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+657/tcp   open  rmc
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7947/tcp  open  unknown
+7981/tcp  open  sossd-collect
+9100/tcp  open  jetdirect
+43794/tcp open  unknown
+------------------------
+IP: 150.163.147.158 - Host: mansidao.cptec.inpe.br
+  Open Ports:
+21/tcp    open  ftp
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+3306/tcp  open  mysql
+8080/tcp  open  http-proxy
+8088/tcp  open  radan-http
+9100/tcp  open  jetdirect
+43079/tcp open  unknown
+------------------------
+IP: 150.163.147.161 - Host: goiatins.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+761/tcp  open  kpasswd
+4949/tcp open  munin
+6379/tcp open  redis
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7956/tcp open  unknown
+7985/tcp open  unknown
+9100/tcp open  jetdirect
+9121/tcp open  unknown
+------------------------
+IP: 150.163.147.162 - Host: cajapio.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+749/tcp  open  kerberos-adm
+4949/tcp open  munin
+6379/tcp open  redis
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7981/tcp open  sossd-collect
+7985/tcp open  unknown
+9100/tcp open  jetdirect
+9121/tcp open  unknown
+------------------------
+IP: 150.163.147.163 - Host: oliveira.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+3141/tcp  open  vmodem
+9100/tcp  open  jetdirect
+37151/tcp open  unknown
+------------------------
+IP: 150.163.147.164 - Host: colorado.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+1017/tcp  open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7943/tcp  open  unknown
+7952/tcp  open  unknown
+9100/tcp  open  jetdirect
+41546/tcp open  unknown
+------------------------
+IP: 150.163.147.165 - Host: jacarezinho.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+33299/tcp open  unknown
+52021/tcp open  unknown
+------------------------
+IP: 150.163.147.166 - Host: itapemirim.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+847/tcp   open  dhcp-failover2
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7963/tcp  open  unknown
+7981/tcp  open  sossd-collect
+9100/tcp  open  jetdirect
+34600/tcp open  unknown
+34697/tcp open  unknown
+41004/tcp open  unknown
+------------------------
+IP: 150.163.147.167 - Host: guaruja.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+789/tcp   open  unknown
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7956/tcp  open  unknown
+7985/tcp  open  unknown
+8080/tcp  open  http-proxy
+8082/tcp  open  blackice-alerts
+8084/tcp  open  unknown
+8085/tcp  open  unknown
+8087/tcp  open  simplifymedia
+8089/tcp  open  unknown
+9100/tcp  open  jetdirect
+46216/tcp open  unknown
+------------------------
+IP: 150.163.147.169 - Host: figueira.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+111/tcp   open  rpcbind
+9100/tcp  open  jetdirect
+43121/tcp open  unknown
+56653/tcp open  unknown
+------------------------
+IP: 150.163.147.170 - Host: congonhas.cptec.inpe.br
+  Open Ports:
+22/tcp  open   ssh
+80/tcp  open   http
+88/tcp  open   kerberos-sec
+389/tcp open   ldap
+443/tcp open   https
+464/tcp open   kpasswd5
+636/tcp open   ldapssl
+------------------------
+IP: 150.163.147.171 - Host: guapore.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.173 - Host: japora.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+749/tcp   open  kerberos-adm
+4949/tcp  open  munin
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7975/tcp  open  unknown
+7976/tcp  open  unknown
+8080/tcp  open  http-proxy
+8084/tcp  open  unknown
+9100/tcp  open  jetdirect
+44215/tcp open  unknown
+------------------------
+IP: 150.163.147.174 - Host: guarulhos2.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+642/tcp  open  esro-emsdp
+1020/tcp open  unknown
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7948/tcp open  unknown
+7976/tcp open  unknown
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.175 - Host: galeao.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.176 - Host: viracopos.cptec.inpe.br
+  Open Ports:
+22/tcp  open   ssh
+80/tcp  open   http
+88/tcp  open   kerberos-sec
+389/tcp open   ldap
+443/tcp open   https
+464/tcp open   kpasswd5
+636/tcp open   ldapssl
+------------------------
+IP: 150.163.147.177 - Host: boituva.cptec.inpe.br
+  Open Ports:
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+681/tcp  open  entrust-aams
+4949/tcp open  munin
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7939/tcp open  unknown
+7981/tcp open  sossd-collect
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.147.190 - Host: salvador.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+661/tcp   open  hap
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7943/tcp  open  unknown
+7981/tcp  open  sossd-collect
+9100/tcp  open  jetdirect
+42839/tcp open  unknown
+------------------------
+IP: 150.163.147.191 - Host: esperantina.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+898/tcp   open  sun-manageconsole
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7962/tcp  open  generalsync
+7984/tcp  open  unknown
+9100/tcp  open  jetdirect
+39239/tcp open  unknown
+------------------------
+IP: 150.163.147.193 - Host: jambeiro.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+443/tcp   open  https
+2181/tcp  open  eforward
+9100/tcp  open  jetdirect
+36691/tcp open  unknown
+57889/tcp open  unknown
+------------------------
+IP: 150.163.147.196 - Host: curitiba.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+682/tcp   open  xfr
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7967/tcp  open  supercell
+7968/tcp  open  unknown
+9100/tcp  open  jetdirect
+36459/tcp open  unknown
+------------------------
+IP: 150.163.147.197 - Host: saira-147.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+8550/tcp  open  unknown
+22022/tcp open  unknown
+------------------------
+IP: 150.163.147.198 - Host: beijaflor.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+443/tcp   open  https
+2049/tcp  open  nfs
+8080/tcp  open  http-proxy
+30000/tcp open  ndmps
+30001/tcp open  pago-services1
+30002/tcp open  pago-services2
+42507/tcp open  unknown
+------------------------
+IP: 150.163.147.199 - Host: coruja.cptec.inpe.br
+  Open Ports:
+21/tcp    open  ftp
+22/tcp    open  ssh
+80/tcp    open  http
+111/tcp   open  rpcbind
+37782/tcp open  unknown
+52287/tcp open  unknown
+------------------------
+IP: 150.163.147.203 - Host: jupati.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+8009/tcp  open  ajp13
+8080/tcp  open  http-proxy
+34986/tcp open  unknown
+37098/tcp open  unknown
+45816/tcp open  unknown
+------------------------
+IP: 150.163.147.205 - Host: jauri.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+662/tcp   open  pftp
+875/tcp   open  unknown
+892/tcp   open  unknown
+2049/tcp  open  nfs
+32803/tcp open  unknown
+37105/tcp open  unknown
+------------------------
+IP: 150.163.147.220 - Host: sw6513-147.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.222 - Host: cotia.cptec.inpe.br
+  Open Ports:
+21/tcp    open  ftp
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3000/tcp  open  ppp
+8080/tcp  open  http-proxy
+9100/tcp  open  jetdirect
+42417/tcp open  unknown
+------------------------
+IP: 150.163.147.229 - Host: paraiso.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+806/tcp   open  unknown
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7954/tcp  open  unknown
+7987/tcp  open  unknown
+9100/tcp  open  jetdirect
+36805/tcp open  unknown
+------------------------
+IP: 150.163.147.233 - Host: esdm03.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+427/tcp   open  svrloc
+2463/tcp  open  lsi-raid-mgmt
+2638/tcp  open  sybase
+5164/tcp  open  vpa
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+7942/tcp  open  unknown
+7943/tcp  open  unknown
+7950/tcp  open  unknown
+7953/tcp  open  unknown
+7954/tcp  open  unknown
+7960/tcp  open  unknown
+7962/tcp  open  generalsync
+7971/tcp  open  unknown
+7973/tcp  open  unknown
+7983/tcp  open  unknown
+7988/tcp  open  unknown
+8080/tcp  open  http-proxy
+9000/tcp  open  cslistener
+9001/tcp  open  tor-orport
+46027/tcp open  unknown
+47786/tcp open  unknown
+49629/tcp open  unknown
+------------------------
+IP: 150.163.147.234 - Host: aux02.cptec.inpe.br
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+2463/tcp  open  lsi-raid-mgmt
+14300/tcp open  unknown
+15002/tcp open  onep-tls
+15003/tcp open  unknown
+43782/tcp open  unknown
+52172/tcp open  unknown
+------------------------
+IP: 150.163.147.250 - Host: arape.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.147.254 - Host: _gateway
+  Nenhuma porta aberta encontrada.
+------------------------

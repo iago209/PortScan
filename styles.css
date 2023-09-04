@@ -1,0 +1,24 @@
+/* Estilo para as abas */
+.tab-estilo-sesup {
+    background-color: #1976D2;
+    color: white;
+}
+
+.tab-estilo-coids {
+    background-color: #388E3C;
+    color: white;
+}
+
+/* Estilo para os botões */
+.botao_estilo {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Estilo para a tabela responsiva */
+.tabela_estilo {
+    width: 100%;
+    overflow-x: auto;
+}

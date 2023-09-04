@@ -1,0 +1,247 @@
+IP: 150.163.192.1 - Host: dns-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.2 - Host: abapa1-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.3 - Host: abapa2-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.4 - Host: atapy1-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.5 - Host: atapy2-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.11 - Host: caitaba-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.12 - Host: calmaria-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.13 - Host: chuva1-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.14 - Host: chuva2-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.15 - Host: chuva3-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.16 - Host: chuvisco1-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.17 - Host: chuvisco2-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.18 - Host: chuvisco3-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.19 - Host: ciclone-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.20 - Host: dm2-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.21 - Host: enchente-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.192.22 - Host: equinocio-192.cptec.inpe.br
+  Open Ports:
+80/tcp open  http
+------------------------
+IP: 150.163.192.23 - Host: falaropo-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.24 - Host: garoa1-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.25 - Host: garoa2-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.26 - Host: garoa3-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.27 - Host: gaviao-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.28 - Host: geada-192.cptec.inpe.br
+  Open Ports:
+8080/tcp open   http-proxy
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.29 - Host: geada2-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.30 - Host: gelo1-141-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.31 - Host: gelo2-141-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.32 - Host: gelo3-141-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.33 - Host: gelo4-141-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.34 - Host: gloria1-141-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.35 - Host: gloria2-141-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.36 - Host: gloria3-141-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.37 - Host: gloria4-141-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.38 - Host: granizo1-192.cptec.inpe.br
+  Open Ports:
+80/tcp   open   http
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.39 - Host: juaguarundy-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.40 - Host: leona-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.41 - Host: mogyb-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.42 - Host: myky-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.43 - Host: neve-192.cptec.inpe.br
+  Open Ports:
+8080/tcp open   http-proxy
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.44 - Host: nevoeiro-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.45 - Host: nublado1-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.46 - Host: nublado2-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.47 - Host: nublado3-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.48 - Host: orvalho-192.cptec.inpe.br
+  Open Ports:
+8080/tcp open   http-proxy
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.49 - Host: peassaba-192.cptec.inpe.br
+  Open Ports:
+44/tcp   open  mpm-flags
+80/tcp   open  http
+111/tcp  open  rpcbind
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.192.50 - Host: pindara-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.51 - Host: pituna-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.52 - Host: pocanga-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.53 - Host: poitara-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.54 - Host: pororoca-192.cptec.inpe.br
+  Open Ports:
+6081/tcp open   geneve
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.55 - Host: primavera-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.56 - Host: pururuca-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.57 - Host: rajada-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.58 - Host: robiapira-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.59 - Host: royu-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.60 - Host: tabapira-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.61 - Host: taixi-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.192.62 - Host: taoca-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.63 - Host: taperu-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.64 - Host: tapixaba-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.65 - Host: tempestade-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.192.66 - Host: tornado-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.67 - Host: tromba-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.68 - Host: trovao-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.69 - Host: trovao2-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.70 - Host: tufao1-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.71 - Host: tumbyra-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.72 - Host: ubiru-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.73 - Host: vapor-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open  jetdirect
+------------------------
+IP: 150.163.192.74 - Host: vento-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.75 - Host: vulcao-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
+IP: 150.163.192.76 - Host: meteoro-192.cptec.inpe.br
+  Nenhuma porta aberta encontrada.
+------------------------
+IP: 150.163.192.77 - Host: cumulus-192.cptec.inpe.br
+  Open Ports:
+9100/tcp open   jetdirect
+------------------------
