@@ -4,8 +4,13 @@ e inicia o servidor web para executar a aplicação na URL 'http://150.163.190.3
 As linhas comentadas sugerem diferentes maneiras de configurar estilos externos para a aplicação, mas atualmente estão desabilitadas.
 '''
 import dash
-from app.app_layout import criar_layout
-from app.app_callbacks import register_callbacks
+# IMPORTA ARQUIVOS DA PASTA APP/ ******************************
+# from app.app_layout import criar_layout
+# from app.app_callbacks import register_callbacks
+
+# IMPORTA ARQUIVOS DA PASTA LOCAL ******************************
+from app_layout import *
+from app_callbacks import *
 
 # Configuração dos estilos externos
 #external_stylesheets=['C:\\Users\\Bolsista\\Downloads\\PortScan\\app\\styles.css']
@@ -21,4 +26,8 @@ app.layout = criar_layout()
 register_callbacks(app)
 
 if __name__ == '__main__':
-    app.run_server(host='150.163.190.30', port=8050, debug=True)
+    # Run em máquina: Iago
+    # app.run_server(host='150.163.190.30', port=8051, debug=True)
+    
+    # Run em máquina: Caio
+    app.run_server(host='192.168.0.211', port=8051, debug=True)

@@ -3,7 +3,7 @@ from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 
-from app.data_manipulation import*
+from data_manipulation import*
 
 # Estilos para os botões Obs: migrar para o arquivo styles.css
 botao_estilo = {
@@ -50,7 +50,7 @@ def register_callbacks(app):
     com o identificador 'sub-tabs-content-vdc-sesup' ou 'sub-tabs-content-vdc-coids' 
     com base no valor selecionado em uma barra de abas.
     '''
-   # VDC - SESUP
+    # VDC - SESUP
 
     @app.callback(
         Output('sub-tabs-content-vdc-sesup', 'children'),
@@ -116,7 +116,7 @@ def register_callbacks(app):
             ])
 
         elif sub_tab == 'sub-tab-operacional':
-           
+
             num_hosts_com_portas_operacional = len(df_operacional_sesup[df_operacional_sesup['Portas abertas'] != 'Nenhuma porta aberta encontrada'])
             num_hosts_sem_portas_operacional = len(df_operacional_sesup[df_operacional_sesup['Portas abertas'] == 'Nenhuma porta aberta encontrada'])
 
