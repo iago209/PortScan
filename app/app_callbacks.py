@@ -3,7 +3,7 @@ from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 
-from app.data_manipulation import*
+from app.data_manipulation import *
 
 # Estilos para os botões Obs: migrar para o arquivo styles.css
 botao_estilo = {
