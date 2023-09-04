@@ -1,4 +1,19 @@
 INTRUÇÕES PARA ALGUNS PASSOS DO PROJETO:
 
-- Para instalar os pacotes python (pip), use:
+    AMBIENTE VIRTUAL *******
+- Criar ambiente virtual:
+    $ python -m venv (nome_do_ambiente)
+
+- Entrar no ambiente virtual (Windows):
+    $ .\(nome_do_ambiente)\Scripts\activate
+
+    (Linux):
+    $ source (nome_do_ambiente)/bin/activate
+
+
+    PACOTES PYTHON E INSTALACOES *******
+- Gerar arquivo "requirements.txt"
+    $ pip freeze > requirements.txt
+
+- Instalar os pacotes python (pip), use:
     $ pip install -r requirements.txt
