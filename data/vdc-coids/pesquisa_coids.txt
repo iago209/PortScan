@@ -1,81 +1,20 @@
 IP: 150.163.214.1 - Host: abudabi.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
 111/tcp   open  rpcbind
-1024/tcp  open  kdm
-1025/tcp  open  NFS-or-IIS
-1026/tcp  open  LSA-or-nterm
-1027/tcp  open  IIS
-1028/tcp  open  unknown
-1029/tcp  open  ms-lsa
-1030/tcp  open  iad1
-1031/tcp  open  iad2
-1032/tcp  open  iad3
-1033/tcp  open  netinfo
-1034/tcp  open  zincite-a
-1035/tcp  open  multidropper
-1036/tcp  open  nsstp
-1037/tcp  open  ams
-1038/tcp  open  mtqp
-1039/tcp  open  sbl
-1040/tcp  open  netsaint
-1041/tcp  open  danf-ak2
-1042/tcp  open  afrog
-1043/tcp  open  boinc
-1044/tcp  open  dcutility
-1045/tcp  open  fpitp
-1046/tcp  open  wfremotertm
-1047/tcp  open  neod1
-1048/tcp  open  neod2
-1049/tcp  open  td-postman
-1050/tcp  open  java-or-OTGfileshare
-1051/tcp  open  optima-vnet
-1052/tcp  open  ddt
-1053/tcp  open  remote-as
-1054/tcp  open  brvread
-1055/tcp  open  ansyslmd
-1056/tcp  open  vfo
-1057/tcp  open  startron
-1058/tcp  open  nim
-1059/tcp  open  nimreg
-1060/tcp  open  polestar
-1061/tcp  open  kiosk
-1062/tcp  open  veracity
-1063/tcp  open  kyoceranetdev
-1064/tcp  open  jstel
-1065/tcp  open  syscomlan
-1066/tcp  open  fpo-fns
-1067/tcp  open  instl_boots
-1068/tcp  open  instl_bootc
-1069/tcp  open  cognex-insight
-1070/tcp  open  gmrupdateserv
-1071/tcp  open  bsquare-voip
-1072/tcp  open  cardax
-1073/tcp  open  bridgecontrol
-1074/tcp  open  warmspotMgmt
-1075/tcp  open  rdrmshc
-1076/tcp  open  sns_credit
-1077/tcp  open  imgames
-1078/tcp  open  avocent-proxy
-1079/tcp  open  asprovatalk
-1080/tcp  open  socks
-1081/tcp  open  pvuniwien
-1082/tcp  open  amt-esd-prot
-1083/tcp  open  ansoft-lm-1
 10050/tcp open  zabbix-agent
-45161/tcp open  unknown
-46043/tcp open  unknown
-49097/tcp open  unknown
-54715/tcp open  unknown
 ------------------------
 IP: 150.163.214.2 - Host: abuja.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.214.3 - Host: acra.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
@@ -84,13 +23,14 @@ IP: 150.163.214.3 - Host: acra.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.214.4 - Host: abeba.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
-51237/tcp open  unknown
 ------------------------
 IP: 150.163.214.5 - Host: ama.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 80/tcp    open  http
@@ -100,12 +40,14 @@ IP: 150.163.214.5 - Host: ama.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.214.6 - Host: amesterdam.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.214.7 - Host: ancara.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
@@ -113,9 +55,11 @@ IP: 150.163.214.7 - Host: ancara.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.214.100 - Host: template-pesq.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.214.230 - Host: zagrebe.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp   open  ssh
 8787/tcp open  msgsrvr
