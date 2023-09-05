@@ -4,6 +4,7 @@ def criar_dataframe(caminho_arquivo):
     # Listas para armazenar os dados
     ips = []
     hosts = []
+    tipos = []  # Adicionamos uma lista para armazenar o tipo (Físico ou Virtual)
     portas_abertas = []
 
     # Abre o arquivo no modo de leitura
@@ -11,6 +12,7 @@ def criar_dataframe(caminho_arquivo):
         temp_ip = None
         temp_host = None
         temp_ports = []
+        temp_tipo = None  # Variável para armazenar o tipo
         capturing_ports = False
         for linha in arquivo:
             linha = linha.strip()
@@ -18,6 +20,7 @@ def criar_dataframe(caminho_arquivo):
                 if temp_ip is not None and temp_host is not None:
                     ips.append(temp_ip)
                     hosts.append(temp_host)
+                    tipos.append(temp_tipo)  # Adiciona o tipo à lista
                     if temp_ports:
                         portas_abertas.append(', '.join(temp_ports))
                     else:
@@ -27,6 +30,8 @@ def criar_dataframe(caminho_arquivo):
                 temp_host = temp_host.strip()
                 temp_ports = []
                 capturing_ports = False
+            elif linha.startswith('Tipo:'):
+                temp_tipo = linha.split('Tipo:')[1].strip()  # Obtém o tipo
             elif linha.startswith('Open Ports:'):
                 temp_ports = []
                 capturing_ports = True
@@ -37,28 +42,52 @@ def criar_dataframe(caminho_arquivo):
     if temp_ip is not None and temp_host is not None:
         ips.append(temp_ip)
         hosts.append(temp_host)
+        tipos.append(temp_tipo)  # Adiciona o tipo à lista
         if temp_ports:
             portas_abertas.append(', '.join(temp_ports))
         else:
             portas_abertas.append('Nenhuma porta aberta encontrada')
 
     # Cria o DataFrame
-    df = pd.DataFrame({'IP': ips, 'Host': hosts, 'Portas abertas': portas_abertas})
+    df = pd.DataFrame({'IP': ips, 'Host': hosts, 'Tipo': tipos, 'Portas abertas': portas_abertas})
     return df
 
+
+# INICIO - CAMINHOS PARA ARQUIVOS DE LEITURA ************************* IAGO  *****************************************
 # Especifique os caminhos dos arquivos VDC-SESUP que você deseja ler
-caminho_arquivo_dmz192_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\dmz192.txt'
-caminho_arquivo_dmz141_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\dmz141.txt'
-caminho_arquivo_pesquisa_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\pesquisa.txt'
+caminho_arquivo_dmz192_sesup = r'C:\Users\Bolsista\Downloads\PortScan-git\data\vdc-sesup\dmz192.txt'
+caminho_arquivo_dmz141_sesup = r'C:\Users\Bolsista\Downloads\PortScan-git\data\vdc-sesup\dmz141.txt'
+caminho_arquivo_pesquisa_sesup = r'C:\Users\Bolsista\Downloads\PortScan-git\data\vdc-sesup\pesquisa.txt'
 #caminho_arquivo_hpc223_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\hpc223.txt'
 #caminho_arquivo_hpc222_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\hpc222.txt'
-caminho_arquivo_operacional_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\operacional.txt'
+caminho_arquivo_operacional_sesup = r'C:\Users\Bolsista\Downloads\PortScan-git\data\vdc-sesup\operacional.txt'
 
 # Especifique os caminhos dos arquivos VDC-COIDS que você deseja ler
-caminho_arquivo_dmz_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coids\dmz_coids.txt'
-caminho_arquivo_pesquisa_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coids\pesquisa_coids.txt'
+caminho_arquivo_dmz_coids = r'C:\Users\Bolsista\Downloads\PortScan-git\data\vdc-coids\dmz_coids.txt'
+caminho_arquivo_pesquisa_coids = r'C:\Users\Bolsista\Downloads\PortScan-git\data\vdc-coids\pesquisa_coids.txt'
 #caminho_arquivo_hpc_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coids\hpc_coids.txt'
-caminho_arquivo_operacional_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coids\operacional_coids.txt'
+caminho_arquivo_operacional_coids = r'C:\Users\Bolsista\Downloads\PortScan-git\data\vdc-coids\operacional_coids.txt'
+# FIM - CAMINHOS PARA ARQUIVOS DE LEITURA ************************* IAGO  *****************************************
+
+
+
+
+# INICIO - CAMINHOS PARA ARQUIVOS DE LEITURA ************************* CAIO  *****************************************
+# Especifique os caminhos dos arquivos VDC-SESUP que você deseja ler
+#caminho_arquivo_dmz192_sesup = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-sesup\dmz192.txt'
+#caminho_arquivo_dmz141_sesup = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-sesup\dmz141.txt'
+#caminho_arquivo_pesquisa_sesup = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-sesup\pesquisa.txt'
+#caminho_arquivo_operacional_sesup = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-sesup\operacional.txt'
+#caminho_arquivo_hpc223_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\hpc223.txt'
+#caminho_arquivo_hpc222_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\hpc222.txt'
+
+# Especifique os caminhos dos arquivos VDC-COIDS que você deseja ler
+#caminho_arquivo_dmz_coids = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-coids\dmz_coids.txt'
+#caminho_arquivo_pesquisa_coids = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-coids\pesquisa_coids.txt'
+#caminho_arquivo_hpc_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coids\hpc_coids.txt'
+#caminho_arquivo_operacional_coids = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-coids\operacional_coids.txt'
+# FIM - CAMINHOS PARA ARQUIVOS DE LEITURA ************************* CAIO  *****************************************
+
 
 # Cria os DataFrames para VDC-SESUP
 df_dmz_192_sesup = criar_dataframe(caminho_arquivo_dmz192_sesup)
