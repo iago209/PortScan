@@ -298,7 +298,6 @@ e digitação de texto no campo 'input-filtro-dmz192'
     )
     def render_sub_content_vdc_coids(sub_tab):
         if sub_tab == 'sub-tab-dmz':
-     
             num_hosts_com_portas_dmz = len(df_dmz_coids[df_dmz_coids['Portas abertas'] != 'Nenhuma porta aberta encontrada'])
             num_hosts_sem_portas_dmz = len(df_dmz_coids[df_dmz_coids['Portas abertas'] == 'Nenhuma porta aberta encontrada'])
 

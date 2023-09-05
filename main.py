@@ -4,11 +4,6 @@ e inicia o servidor web para executar a aplicação na URL 'http://150.163.190.3
 As linhas comentadas sugerem diferentes maneiras de configurar estilos externos para a aplicação, mas atualmente estão desabilitadas.
 '''
 import dash
-# IMPORTA ARQUIVOS DA PASTA APP/ ******************************
-# from app.app_layout import criar_layout
-# from app.app_callbacks import register_callbacks
-
-# IMPORTA ARQUIVOS DA PASTA LOCAL ******************************
 from app.app_layout import *
 from app.app_callbacks import *
 
