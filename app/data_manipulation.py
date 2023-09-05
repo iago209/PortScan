@@ -46,8 +46,6 @@ def criar_dataframe(caminho_arquivo):
     df = pd.DataFrame({'IP': ips, 'Host': hosts, 'Portas abertas': portas_abertas})
     return df
 
-
-# INICIO - CAMINHOS PARA ARQUIVOS DE LEITURA ************************* IAGO  *****************************************
 # Especifique os caminhos dos arquivos VDC-SESUP que você deseja ler
 caminho_arquivo_dmz192_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\dmz192.txt'
 caminho_arquivo_dmz141_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\dmz141.txt'
@@ -61,27 +59,6 @@ caminho_arquivo_dmz_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coid
 caminho_arquivo_pesquisa_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coids\pesquisa_coids.txt'
 #caminho_arquivo_hpc_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coids\hpc_coids.txt'
 caminho_arquivo_operacional_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coids\operacional_coids.txt'
-# FIM - CAMINHOS PARA ARQUIVOS DE LEITURA ************************* IAGO  *****************************************
-
-
-
-
-# INICIO - CAMINHOS PARA ARQUIVOS DE LEITURA ************************* CAIO  *****************************************
-# Especifique os caminhos dos arquivos VDC-SESUP que você deseja ler
-caminho_arquivo_dmz192_sesup = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-sesup\dmz192.txt'
-caminho_arquivo_dmz141_sesup = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-sesup\dmz141.txt'
-caminho_arquivo_pesquisa_sesup = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-sesup\pesquisa.txt'
-caminho_arquivo_operacional_sesup = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-sesup\operacional.txt'
-#caminho_arquivo_hpc223_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\hpc223.txt'
-#caminho_arquivo_hpc222_sesup = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-sesup\hpc222.txt'
-
-# Especifique os caminhos dos arquivos VDC-COIDS que você deseja ler
-caminho_arquivo_dmz_coids = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-coids\dmz_coids.txt'
-caminho_arquivo_pesquisa_coids = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-coids\pesquisa_coids.txt'
-#caminho_arquivo_hpc_coids = r'C:\Users\Bolsista\Downloads\PortScan\data\vdc-coids\hpc_coids.txt'
-caminho_arquivo_operacional_coids = r'C:\Users\Caio Lemes\Documents\PortScan\PortScan\data\vdc-coids\operacional_coids.txt'
-# FIM - CAMINHOS PARA ARQUIVOS DE LEITURA ************************* CAIO  *****************************************
-
 
 # Cria os DataFrames para VDC-SESUP
 df_dmz_192_sesup = criar_dataframe(caminho_arquivo_dmz192_sesup)
