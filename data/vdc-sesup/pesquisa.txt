@@ -1,351 +1,212 @@
 IP: 150.163.149.11 - Host: taubate.cptec.inpe.br
-  Open Ports:
-22/tcp   open  ssh
-25/tcp   open  smtp
-111/tcp  open  rpcbind
-9100/tcp open  jetdirect
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.12 - Host: sto18-01.cptec.inpe.br
-  Open Ports:
-3260/tcp open  iscsi
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.13 - Host: sto18-02.cptec.inpe.br
-  Open Ports:
-3260/tcp open  iscsi
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.14 - Host: tabaji.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-111/tcp   open  rpcbind
-828/tcp   open  itm-mcell-s
-7937/tcp  open  nsrexecd
-7938/tcp  open  lgtomapper
-7940/tcp  open  unknown
-7977/tcp  open  unknown
-9100/tcp  open  jetdirect
-27000/tcp open  flexlm0
-40439/tcp open  unknown
-52464/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.15 - Host: pinhais.cptec.inpe.br
-  Open Ports:
-22/tcp   open  ssh
-7070/tcp open  realserver
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.16 - Host: jequitai.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-80/tcp    open  http
-111/tcp   open  rpcbind
-9100/tcp  open  jetdirect
-42701/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.17 - Host: papanduva.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.18 - Host: brumado.cptec.inpe.br
-  Open Ports:
-111/tcp open  rpcbind
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.19 - Host: progresso.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-111/tcp   open  rpcbind
-785/tcp   open  unknown
-7937/tcp  open  nsrexecd
-7938/tcp  open  lgtomapper
-7964/tcp  open  unknown
-7983/tcp  open  unknown
-9100/tcp  open  jetdirect
-40296/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.20 - Host: bacuri.cptec.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
 111/tcp   open  rpcbind
-5901/tcp  open  vnc-1
-5920/tcp  open  unknown
 5921/tcp  open  unknown
-5922/tcp  open  unknown
 5932/tcp  open  unknown
-5943/tcp  open  unknown
-5972/tcp  open  unknown
 9100/tcp  open  jetdirect
-46703/tcp open  unknown
-57111/tcp open  unknown
+39859/tcp open  unknown
+52521/tcp open  unknown
 ------------------------
 IP: 150.163.149.21 - Host: lavrinhas.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-111/tcp   open  rpcbind
-9100/tcp  open  jetdirect
-38641/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.22 - Host: granja.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-111/tcp   open  rpcbind
-9100/tcp  open  jetdirect
-46607/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.23 - Host: tamboril.cptec.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
-866/tcp   open  unknown
+880/tcp   open  unknown
 7937/tcp  open  nsrexecd
 7938/tcp  open  lgtomapper
-7945/tcp  open  unknown
-7979/tcp  open  micromuse-ncps
+7944/tcp  open  unknown
+7962/tcp  open  generalsync
 8080/tcp  open  http-proxy
 9100/tcp  open  jetdirect
-34139/tcp open  unknown
+41565/tcp open  unknown
 ------------------------
 IP: 150.163.149.24 - Host: goias.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-111/tcp   open  rpcbind
-664/tcp   open  secure-aux-bus
-7937/tcp  open  nsrexecd
-7938/tcp  open  lgtomapper
-7964/tcp  open  unknown
-7978/tcp  open  unknown
-9100/tcp  open  jetdirect
-35071/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.25 - Host: sarapui.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-111/tcp   open  rpcbind
-5434/tcp  open  sgi-arrayd
-5436/tcp  open  pmip6-cntl
-9100/tcp  open  jetdirect
-45741/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.26 - Host: porto.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-80/tcp    open  http
-82/tcp    open  xfer
-111/tcp   open  rpcbind
-400/tcp   open  work-sol
-5555/tcp  open  freeciv
-8080/tcp  open  http-proxy
-9100/tcp  open  jetdirect
-33271/tcp open  unknown
-39603/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.27 - Host: formoso.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-111/tcp   open  rpcbind
-9100/tcp  open  jetdirect
-35275/tcp open  unknown
-39385/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.28 - Host: lab-sup01.cptec.inpe.br
-  Open Ports:
-22/tcp open  ssh
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.29 - Host: piquete.cptec.inpe.br
-  Open Ports:
-22/tcp   open  ssh
-25/tcp   open  smtp
-111/tcp  open  rpcbind
-9100/tcp open  jetdirect
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.30 - Host: resende.cptec.inpe.br
-  Open Ports:
-22/tcp   open  ssh
-25/tcp   open  smtp
-111/tcp  open  rpcbind
-9100/tcp open  jetdirect
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.31 - Host: sophia.cptec.inpe.br
-  Open Ports:
-22/tcp   open  ssh
-25/tcp   open  smtp
-111/tcp  open  rpcbind
-9100/tcp open  jetdirect
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.32 - Host: corinto.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.33 - Host: tocantins.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.34 - Host: brumadinho.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.35 - Host: capetinga.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.36 - Host: coluna.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.37 - Host: bofete.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.38 - Host: orizona.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.39 - Host: condado.cptec.inpe.br
 condado
+  Tipo: Virtual
   Open Ports:
 22/tcp    open     ssh
 25/tcp    open     smtp
 80/tcp    open     http
 111/tcp   open     rpcbind
 9100/tcp  open     jetdirect
-43103/tcp open     unknown
-45901/tcp open     unknown
+40295/tcp open     unknown
+49497/tcp open     unknown
 ------------------------
 IP: 150.163.149.40 - Host: cajari.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-80/tcp    open  http
-111/tcp   open  rpcbind
-3306/tcp  open  mysql
-5002/tcp  open  rfe
-5007/tcp  open  wsm-server-ssl
-9100/tcp  open  jetdirect
-33060/tcp open  mysqlx
-39731/tcp open  unknown
-55269/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.41 - Host: estrela.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-111/tcp   open  rpcbind
-3306/tcp  open  mysql
-5000/tcp  open  upnp
-6379/tcp  open  redis
-8087/tcp  open  simplifymedia
-8088/tcp  open  radan-http
-9000/tcp  open  cslistener
-9001/tcp  open  tor-orport
-9100/tcp  open  jetdirect
-9443/tcp  open  tungsten-https
-20056/tcp open  unknown
-20057/tcp open  avesterra
-20058/tcp open  unknown
-20060/tcp open  unknown
-20061/tcp open  unknown
-20062/tcp open  unknown
-36785/tcp open  unknown
-49156/tcp open  unknown
-49157/tcp open  unknown
-57617/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.42 - Host: bonito.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-80/tcp    open  http
-111/tcp   open  rpcbind
-9100/tcp  open  jetdirect
-45671/tcp open  unknown
-50255/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.43 - Host: lab-sup02.cptec.inpe.br
-  Open Ports:
-22/tcp   open  ssh
-8443/tcp open  https-alt
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.44 - Host: lab-sup03.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.45 - Host: lab-sup04.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.46 - Host: dobrada.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-111/tcp   open  rpcbind
-5432/tcp  open  postgresql
-9100/tcp  open  jetdirect
-43857/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.47 - Host: baliza.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-111/tcp   open  rpcbind
-9100/tcp  open  jetdirect
-34917/tcp open  unknown
-53637/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.48 - Host: montanha.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-111/tcp   open  rpcbind
-443/tcp   open  https
-9100/tcp  open  jetdirect
-46111/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.49 - Host: fernao.cptec.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
 111/tcp   open  rpcbind
 9100/tcp  open  jetdirect
-33367/tcp open  unknown
-35249/tcp open  unknown
+38347/tcp open  unknown
+40033/tcp open  unknown
 ------------------------
 IP: 150.163.149.50 - Host: braganca.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-25/tcp    open  smtp
-111/tcp   open  rpcbind
-9100/tcp  open  jetdirect
-40061/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.51 - Host: lab-sup05.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.52 - Host: lab-sup06.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.53 - Host: lab-sup07.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.54 - Host: robura.cptec.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-111/tcp   open  rpcbind
-514/tcp   open  shell
-875/tcp   open  unknown
-955/tcp   open  unknown
-962/tcp   open  unknown
-979/tcp   open  unknown
-2049/tcp  open  nfs
-4672/tcp  open  rfa
-4673/tcp  open  cxws
-4674/tcp  open  appiq-mgmt
-5554/tcp  open  sgi-esphttp
-7890/tcp  open  unknown
-15001/tcp open  unknown
-15004/tcp open  unknown
-15007/tcp open  unknown
-38543/tcp open  unknown
-44321/tcp open  pmcd
-44322/tcp open  pmcdproxy
-45564/tcp open  unknown
-49190/tcp open  unknown
-50215/tcp open  unknown
-60367/tcp open  unknown
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.149.220 - Host: sw6513-149.cptec.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
