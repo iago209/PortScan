@@ -1,14 +1,13 @@
 IP: 150.163.212.1 - Host: malta1.coids.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-111/tcp   open  rpcbind
-389/tcp   open  ldap
-10050/tcp open  zabbix-agent
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.2 - Host: malta2.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.11 - Host: florida.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 22/tcp    open   ssh
 80/tcp    open   http
@@ -20,6 +19,7 @@ IP: 150.163.212.11 - Host: florida.coids.inpe.br
 10050/tcp open   zabbix-agent
 ------------------------
 IP: 150.163.212.12 - Host: jacarezinho.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 22/tcp    open   ssh
 80/tcp    open   http
@@ -31,12 +31,15 @@ IP: 150.163.212.12 - Host: jacarezinho.coids.inpe.br
 10050/tcp open   zabbix-agent
 ------------------------
 IP: 150.163.212.13 - Host: serrita.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.14 - Host: aracaju.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.15 - Host: jacupiranga.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 22/tcp    open  ssh
 80/tcp    open  http
@@ -44,37 +47,48 @@ IP: 150.163.212.15 - Host: jacupiranga.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.212.16 - Host: cedro.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.17 - Host: ituverava.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 443/tcp open  https
 ------------------------
 IP: 150.163.212.18 - Host: joinville.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.19 - Host: itaitinga.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.20 - Host: lajedao.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.21 - Host: durande.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.22 - Host: ibirapua.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.23 - Host: monjolos.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.24 - Host: guaratuba.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.25 - Host: arapua.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.26 - Host: abare.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
@@ -82,6 +96,7 @@ IP: 150.163.212.26 - Host: abare.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.212.27 - Host: uruguaiana.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
@@ -89,17 +104,20 @@ IP: 150.163.212.27 - Host: uruguaiana.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.212.28 - Host: nilopolis.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
-34053/tcp open  unknown
+46647/tcp open  unknown
 ------------------------
 IP: 150.163.212.29 - Host: nepomuceno.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.30 - Host: ibema.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
@@ -107,147 +125,161 @@ IP: 150.163.212.30 - Host: ibema.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.212.31 - Host: encanto.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
-52691/tcp open  unknown
 ------------------------
 IP: 150.163.212.32 - Host: quixabeira.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
 111/tcp   open  rpcbind
 9100/tcp  open  jetdirect
 10050/tcp open  zabbix-agent
-34227/tcp open  unknown
-48269/tcp open  unknown
+33563/tcp open  unknown
 ------------------------
 IP: 150.163.212.33 - Host: limeira.coids.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-80/tcp    open  http
-111/tcp   open  rpcbind
-8080/tcp  open  http-proxy
-8100/tcp  open  xprint-server
-10050/tcp open  zabbix-agent
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.34 - Host: ocara.coids.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-111/tcp   open  rpcbind
-5432/tcp  open  postgresql
-10050/tcp open  zabbix-agent
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.35 - Host: diadema.coids.inpe.br
-  Open Ports:
-22/tcp    open  ssh
-111/tcp   open  rpcbind
-8080/tcp  open  http-proxy
-10050/tcp open  zabbix-agent
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.36 - Host: cafeara.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.37 - Host: itupeva.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.38 - Host: ibirajuba.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.39 - Host: sapopema.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.40 - Host: silveiras.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.41 - Host: lavinia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.42 - Host: mari.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.43 - Host: caridade.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.44 - Host: miravania.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.45 - Host: goias.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.46 - Host: emas.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.47 - Host: parobe.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.48 - Host: riolandia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.49 - Host: taquara.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.50 - Host: barbalha.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.51 - Host: apore.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
-40613/tcp open  unknown
-41115/tcp open  unknown
+33989/tcp open  unknown
+37031/tcp open  unknown
 ------------------------
 IP: 150.163.212.52 - Host: belterra.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
-53497/tcp open  unknown
 ------------------------
 IP: 150.163.212.53 - Host: ampere.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
-37523/tcp open  unknown
-37947/tcp open  unknown
-54321/tcp open  unknown
+40417/tcp open  unknown
+59215/tcp open  unknown
 ------------------------
 IP: 150.163.212.54 - Host: cianorte.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
-34545/tcp open  unknown
-57771/tcp open  unknown
 ------------------------
 IP: 150.163.212.55 - Host: bertioga.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
-34423/tcp open  unknown
-48763/tcp open  unknown
+------------------------
+IP: 150.163.212.56 - Host: pojuca.coids.inpe.br
+  Tipo: Fisico
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.212.100 - Host: template-int.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.230 - Host: carbono.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.212.231 - Host: hidrogenio.coids.inpe.br
+  Tipo: Fisico
   Open Ports:
-22/tcp  open  ssh
-111/tcp open  rpcbind
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+44577/tcp open  unknown
 ------------------------
 IP: 150.163.212.252 - Host: caete.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 22/tcp    open  ssh
 80/tcp    open  http
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
-40529/tcp open  unknown
 ------------------------
