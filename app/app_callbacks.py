@@ -1,8 +1,7 @@
 import dash
 from dash import dcc, html, dash_table
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
 import plotly.graph_objs as go
-
 from app.data_manipulation import*
 
 # Estilos para os botões Obs: migrar para o arquivo styles.css
@@ -88,6 +87,7 @@ def register_callbacks(app):
                 html.Div([
                     html.Button('Hosts com Portas Abertas', id='botao-tabela1-dmz192', style=botao_estilo),
                     html.Button('Hosts com Portas Fechadas', id='botao-tabela2-dmz192', style=botao_estilo),
+                    html.Button('Todos os Hosts', id='botao-tabela3-dmz192', style=botao_estilo),
                     dcc.Input(id='input-filtro-dmz192', placeholder='Filtrar por Host...', type='text'),
                     html.Div(id='tabela-container-dmz192')
                 ])
@@ -119,6 +119,7 @@ def register_callbacks(app):
                 html.Div([
                     html.Button('Hosts com Portas Abertas', id='botao-tabela1-dmz141', style=botao_estilo),
                     html.Button('Hosts com Portas Fechadas', id='botao-tabela2-dmz141', style=botao_estilo),
+                    html.Button('Todos os Hosts', id='botao-tabela3-dmz141', style=botao_estilo),
                     dcc.Input(id='input-filtro-dmz141', placeholder='Filtrar por Host...', type='text'),
                     html.Div(id='tabela-container-dmz141')
                 ])
@@ -150,6 +151,7 @@ def register_callbacks(app):
                 html.Div([
                     html.Button('Hosts com Portas Abertas', id='botao-tabela1-pesquisa', style=botao_estilo),
                     html.Button('Hosts com Portas Fechadas', id='botao-tabela2-pesquisa', style=botao_estilo),
+                    html.Button('Todos os Hosts', id='botao-tabela3-pesquisa', style=botao_estilo),
                     dcc.Input(id='input-filtro-pesquisa', placeholder='Filtrar por Host...', type='text'),
                     html.Div(id='tabela-container-pesquisa')
                 ])
@@ -181,6 +183,7 @@ def register_callbacks(app):
                 html.Div([
                     html.Button('Hosts com Portas Abertas', id='botao-tabela1-operacional', style=botao_estilo),
                     html.Button('Hosts com Portas Fechadas', id='botao-tabela2-operacional', style=botao_estilo),
+                    html.Button('Todos os Hosts', id='botao-tabela3-operacional', style=botao_estilo),
                     dcc.Input(id='input-filtro-operacional', placeholder='Filtrar por Host...', type='text'),
                     html.Div(id='tabela-container-operacional')
                 ])
@@ -193,13 +196,16 @@ com o identificadores, exemplo: 'tabela-container-dmz192' com base em interaçõ
 Ele responde a três eventos de entrada: cliques nos botões 'botao-tabela1-dmz192' e 'botao-tabela2-dmz192', 
 e digitação de texto no campo 'input-filtro-dmz192'
     '''
+  
+    # Callback para atualizar a tabela
     @app.callback(
         Output('tabela-container-dmz192', 'children'),
         [Input('botao-tabela1-dmz192', 'n_clicks'),
         Input('botao-tabela2-dmz192', 'n_clicks'),
+        Input('botao-tabela3-dmz192', 'n_clicks'),
         Input('input-filtro-dmz192', 'value')]
     )
-    def display_table_dmz192(n_clicks1, n_clicks2, filtro_host):
+    def display_table_dmz192(n_clicks1, n_clicks2,  n_clicks3, filtro_host):
         ctx = dash.callback_context
         if not ctx.triggered:
             return ''
@@ -211,6 +217,9 @@ e digitação de texto no campo 'input-filtro-dmz192'
         elif button_id == 'botao-tabela2-dmz192':
             filtered_data = df_dmz_192_sesup[df_dmz_192_sesup['Portas abertas'] == 'Nenhuma porta aberta encontrada']
             titulo = "Hosts com Portas Fechadas DMZ REDE-192 SESUP"
+        elif button_id == 'botao-tabela3-dmz192':
+            filtered_data = df_dmz_192_sesup
+            titulo = "Todos os Hosts DMZ REDE-192 SESUP"
         else:
             filtered_data = df_dmz_192_sesup
             titulo = "Todos os Hosts DMZ REDE-192 SESUP"
@@ -234,9 +243,10 @@ e digitação de texto no campo 'input-filtro-dmz192'
         Output('tabela-container-dmz141', 'children'),
         [Input('botao-tabela1-dmz141', 'n_clicks'),
         Input('botao-tabela2-dmz141', 'n_clicks'),
+        Input('botao-tabela3-dmz141', 'n_clicks'),
         Input('input-filtro-dmz141', 'value')]
     )
-    def display_table_dmz141(n_clicks1, n_clicks2, filtro_host):
+    def display_table_dmz141(n_clicks1, n_clicks2,  n_clicks3, filtro_host):
         ctx = dash.callback_context
         if not ctx.triggered:
             return ''
@@ -248,6 +258,9 @@ e digitação de texto no campo 'input-filtro-dmz192'
         elif button_id == 'botao-tabela2-dmz141':
             filtered_data = df_dmz_141_sesup[df_dmz_141_sesup['Portas abertas'] == 'Nenhuma porta aberta encontrada']
             titulo = "Hosts com Portas Fechadas DMZ REDE-141 SESUP"
+        elif button_id == 'botao-tabela3-dmz141':
+            filtered_data = df_dmz_141_sesup
+            titulo = "Todos os Hosts DMZ REDE-141 SESUP"
         else:
             filtered_data = df_dmz_141_sesup
             titulo = "Todos os Hosts DMZ REDE-141 SESUP"
@@ -271,9 +284,10 @@ e digitação de texto no campo 'input-filtro-dmz192'
         Output('tabela-container-pesquisa', 'children'),
         [Input('botao-tabela1-pesquisa', 'n_clicks'),
         Input('botao-tabela2-pesquisa', 'n_clicks'),
+        Input('botao-tabela3-pesquisa', 'n_clicks'),
         Input('input-filtro-pesquisa', 'value')]
     )
-    def display_table_pesquisa(n_clicks1, n_clicks2, filtro_host):
+    def display_table_pesquisa(n_clicks1, n_clicks2, n_clicks3, filtro_host):
         ctx = dash.callback_context
         if not ctx.triggered:
             return ''
@@ -285,6 +299,9 @@ e digitação de texto no campo 'input-filtro-dmz192'
         elif button_id == 'botao-tabela2-pesquisa':
             filtered_data = df_pesquisa_sesup[df_pesquisa_sesup['Portas abertas'] == 'Nenhuma porta aberta encontrada']
             titulo = "Hosts com Portas Fechadas PESQUISA SESUP"
+        elif button_id == 'botao-tabela3-pesquisa':
+            filtered_data = df_pesquisa_sesup
+            titulo = "Todos os Hosts PESQUISA SESUP"
         else:
             filtered_data = df_pesquisa_sesup
             titulo = "Todos os Hosts PESQUISA SESUP"
@@ -308,10 +325,11 @@ e digitação de texto no campo 'input-filtro-dmz192'
         Output('tabela-container-operacional', 'children'),
         [Input('botao-tabela1-operacional', 'n_clicks'),
         Input('botao-tabela2-operacional', 'n_clicks'),
+        Input('botao-tabela3-operacional', 'n_clicks'),
         Input('input-filtro-operacional', 'value')]
     )
 
-    def display_table_operacional(n_clicks1, n_clicks2, filtro_host):
+    def display_table_operacional(n_clicks1, n_clicks2, n_clicks3, filtro_host):
         ctx = dash.callback_context
         if not ctx.triggered:
             return ''
@@ -323,6 +341,9 @@ e digitação de texto no campo 'input-filtro-dmz192'
         elif button_id == 'botao-tabela2-operacional':
             filtered_data = df_operacional_sesup[df_operacional_sesup['Portas abertas'] == 'Nenhuma porta aberta encontrada']
             titulo = "Hosts com Portas Fechadas OPERACIONAL SESUP"
+        elif button_id == 'botao-tabela3-operacional':
+            filtered_data = df_operacional_sesup
+            titulo = "Todos os Hosts OPERACIONAL SESUP"
         else:
             filtered_data = df_operacional_sesup
             titulo = "Todos os Hosts OPERACIONAL SESUP"
@@ -375,6 +396,7 @@ e digitação de texto no campo 'input-filtro-dmz192'
                 html.Div([
                     html.Button('Hosts com Portas Abertas', id='botao-tabela1-dmz', style=botao_estilo),
                     html.Button('Hosts com Portas Fechadas', id='botao-tabela2-dmz', style=botao_estilo),
+                    html.Button('Todos os Hosts', id='botao-tabela3-dmz', style=botao_estilo),
                     dcc.Input(id='input-filtro-dmz', placeholder='Filtrar por Host...', type='text'),
                     html.Div(id='tabela-container-dmz')
                 ])
@@ -406,6 +428,7 @@ e digitação de texto no campo 'input-filtro-dmz192'
                 html.Div([
                     html.Button('Hosts com Portas Abertas', id='botao-tabela1-pesquisa', style=botao_estilo),
                     html.Button('Hosts com Portas Fechadas', id='botao-tabela2-pesquisa', style=botao_estilo),
+                    html.Button('Todos os Hosts', id='botao-tabela3-pesquisa', style=botao_estilo),
                     dcc.Input(id='input-filtro-pesquisa', placeholder='Filtrar por Host...', type='text'),
                     html.Div(id='tabela-container-pesquisa-coids')
                 ])
@@ -437,6 +460,7 @@ e digitação de texto no campo 'input-filtro-dmz192'
                 html.Div([
                     html.Button('Hosts com Portas Abertas', id='botao-tabela1-operacional', style=botao_estilo),
                     html.Button('Hosts com Portas Fechadas', id='botao-tabela2-operacional', style=botao_estilo),
+                    html.Button('Todos os Hosts', id='botao-tabela3-operacional', style=botao_estilo),
                     dcc.Input(id='input-filtro-operacional', placeholder='Filtrar por Host...', type='text'),
                     html.Div(id='tabela-container-operacional_coids')
                 ])
@@ -448,9 +472,10 @@ e digitação de texto no campo 'input-filtro-dmz192'
         Output('tabela-container-dmz', 'children'),
         [Input('botao-tabela1-dmz', 'n_clicks'),
         Input('botao-tabela2-dmz', 'n_clicks'),
+         Input('botao-tabela3-dmz', 'n_clicks'),
         Input('input-filtro-dmz', 'value')]
     )
-    def display_table_dmz(n_clicks1, n_clicks2, filtro_host):
+    def display_table_dmz(n_clicks1, n_clicks2, n_clicks3, filtro_host):
         ctx = dash.callback_context
         if not ctx.triggered:
             return ''
@@ -462,6 +487,9 @@ e digitação de texto no campo 'input-filtro-dmz192'
         elif button_id == 'botao-tabela2-dmz':
             filtered_data = df_dmz_coids[df_dmz_coids['Portas abertas'] == 'Nenhuma porta aberta encontrada']
             titulo = "Hosts com Portas Fechadas DMZ COIDS"
+        elif button_id == 'botao-tabela3-dmz':
+            filtered_data = df_dmz_coids
+            titulo = "Todos os Hosts DMZ COIDS"
         else:
             filtered_data = df_dmz_coids
             titulo = "Todos os Hosts DMZ COIDS"
@@ -485,10 +513,11 @@ e digitação de texto no campo 'input-filtro-dmz192'
         Output('tabela-container-pesquisa-coids', 'children'),
         [Input('botao-tabela1-pesquisa', 'n_clicks'),
         Input('botao-tabela2-pesquisa', 'n_clicks'),
+        Input('botao-tabela3-pesquisa', 'n_clicks'),
         Input('input-filtro-pesquisa', 'value')]
     )
 
-    def display_table_pesquisa(n_clicks1, n_clicks2, filtro_host):
+    def display_table_pesquisa(n_clicks1, n_clicks2, n_clicks3, filtro_host):
         ctx = dash.callback_context
         if not ctx.triggered:
             return ''
@@ -500,10 +529,13 @@ e digitação de texto no campo 'input-filtro-dmz192'
         elif button_id == 'botao-tabela2-pesquisa':
             filtered_data = df_pesquisa_coids[df_pesquisa_coids['Portas abertas'] == 'Nenhuma porta aberta encontrada']
             titulo = "Hosts com Portas Fechadas PESQUISA COIDS"
+        elif button_id == 'botao-tabela3-pesquisa':
+            filtered_data = df_pesquisa_coids
+            titulo = "Todos os Hosts PESQUISA COIDS"
         else:
             filtered_data = df_pesquisa_coids
             titulo = "Todos os Hosts PESQUISA COIDS"
-        
+    
         if filtro_host:
             filtered_data = filtered_data[filtered_data['Host'].str.contains(filtro_host, case=False, na=False)]
         
@@ -523,10 +555,11 @@ e digitação de texto no campo 'input-filtro-dmz192'
         Output('tabela-container-operacional_coids', 'children'),
         [Input('botao-tabela1-operacional', 'n_clicks'),
         Input('botao-tabela2-operacional', 'n_clicks'),
+        Input('botao-tabela3-operacional', 'n_clicks'),
         Input('input-filtro-operacional', 'value')]
     )
 
-    def display_table_operacional(n_clicks1, n_clicks2, filtro_host):
+    def display_table_operacional(n_clicks1, n_clicks2, n_clicks3, filtro_host):
         ctx = dash.callback_context
         if not ctx.triggered:
             return ''
@@ -538,6 +571,9 @@ e digitação de texto no campo 'input-filtro-dmz192'
         elif button_id == 'botao-tabela2-operacional':
             filtered_data = df_operacional_coids[df_operacional_coids['Portas abertas'] == 'Nenhuma porta aberta encontrada']
             titulo = "Hosts com Portas Fechadas OPERACIONAL COIDS"
+        elif button_id == 'botao-tabela3-operacional':
+            filtered_data = df_operacional_coids
+            titulo = "Todos os Hosts OPERACIONAL COIDS"
         else:
             filtered_data = df_operacional_coids
             titulo = "Todos os Hosts OPERACIONAL COIDS"
@@ -556,3 +592,7 @@ e digitação de texto no campo 'input-filtro-dmz192'
                 page_size=10  
             )
         ])
+    
+    
+
+    
