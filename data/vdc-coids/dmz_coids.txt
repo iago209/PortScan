@@ -1,52 +1,66 @@
 IP: 150.163.218.1 - Host: ntp1.coids.inpe.br
 dns1.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.2 - Host: ntp2.coids.inpe.br.218.163.150.in-addr.arpa
 dns2.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.3 - Host: afeganistao.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 80/tcp  open  http
 443/tcp open  https
 ------------------------
 IP: 150.163.218.4 - Host: africa.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.5 - Host: albania.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.6 - Host: alemanha.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.7 - Host: angola.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.8 - Host: arabia.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 80/tcp  open   http
 ------------------------
 IP: 150.163.218.9 - Host: argelia.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.10 - Host: argentina.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 443/tcp open   https
 ------------------------
 IP: 150.163.218.11 - Host: armenia.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 443/tcp open  https
 ------------------------
 IP: 150.163.218.12 - Host: australia.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 80/tcp  open  http
 443/tcp open  https
 ------------------------
 IP: 150.163.218.13 - Host: austria.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.14 - Host: azerbaijao.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 44/tcp    open  mpm-flags
 80/tcp    open  http
@@ -55,151 +69,195 @@ IP: 150.163.218.14 - Host: azerbaijao.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.218.15 - Host: bahamas.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.16 - Host: bangladesh.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 80/tcp  open  http
 443/tcp open  https
 ------------------------
 IP: 150.163.218.17 - Host: barbados.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.18 - Host: barbuda.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.19 - Host: barem.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.20 - Host: belgica.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.21 - Host: belize.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.22 - Host: benim.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.23 - Host: bielorrussia.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.24 - Host: bolivia.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 80/tcp  open   http
 ------------------------
 IP: 150.163.218.25 - Host: bosnia.coids.inpe.br
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.27 - Host: brasil.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 80/tcp  open  http
 443/tcp open  https
 ------------------------
 IP: 150.163.218.28 - Host: brunei.coids.inpe.br
-  Open Ports:
-80/tcp  open   http
+  Tipo: Fisico
+  Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.29 - Host: bulgaria.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.30 - Host: burquina.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.100 - Host: template-dmz.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.150 - Host: ruanda.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.151 - Host: russia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.152 - Host: salomao.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.153 - Host: salvador.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.154 - Host: samoa.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.155 - Host: santalucia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.156 - Host: saocristovao.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.157 - Host: saovicente.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.158 - Host: seicheles.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.159 - Host: senegal.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.160 - Host: serraleoa.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.161 - Host: servia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.162 - Host: siria.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.163 - Host: somalia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.164 - Host: srilanca.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.165 - Host: sudao.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.166 - Host: sudaosul.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.167 - Host: suecia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.168 - Host: suica.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.169 - Host: suriname.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.170 - Host: tailandia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.171 - Host: taiua.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.172 - Host: tajiquistao.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.173 - Host: tanzania.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.174 - Host: timorleste.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.175 - Host: tobago.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.176 - Host: togo.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.177 - Host: tonga.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.178 - Host: tunisia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.179 - Host: turcomenistao.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.218.180 - Host: turquia.coids.inpe.br
+  Tipo: Fisico
   Nenhuma porta aberta encontrada.
 ------------------------
-
-

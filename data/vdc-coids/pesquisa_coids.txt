@@ -1,5 +1,5 @@
 IP: 150.163.214.1 - Host: abudabi.coids.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 22/tcp    open  ssh
 25/tcp    open  smtp
@@ -57,7 +57,7 @@ IP: 150.163.214.1 - Host: abudabi.coids.inpe.br
 48223/tcp open  unknown
 ------------------------
 IP: 150.163.214.2 - Host: abuja.coids.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
@@ -73,11 +73,14 @@ IP: 150.163.214.3 - Host: acra.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.214.4 - Host: abeba.coids.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
+902/tcp   open  iss-realsecure
 10050/tcp open  zabbix-agent
+41413/tcp open  unknown
+49743/tcp open  unknown
 ------------------------
 IP: 150.163.214.5 - Host: ama.coids.inpe.br
   Tipo: Virtual
@@ -88,14 +91,35 @@ IP: 150.163.214.5 - Host: ama.coids.inpe.br
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.214.6 - Host: amesterdam.coids.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
 10050/tcp open  zabbix-agent
 ------------------------
 IP: 150.163.214.7 - Host: ancara.coids.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+10050/tcp open  zabbix-agent
+------------------------
+IP: 150.163.214.8 - Host: andorra.coids.inpe.br
+  Tipo: Virtual
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+10050/tcp open  zabbix-agent
+58367/tcp open  unknown
+------------------------
+IP: 150.163.214.9 - Host: antananarivo.coids.inpe.br
+  Tipo: Virtual
+  Open Ports:
+111/tcp   open  rpcbind
+10050/tcp open  zabbix-agent
+------------------------
+IP: 150.163.214.10 - Host: apia.coids.inpe.br
+  Tipo: Virtual
   Open Ports:
 22/tcp    open  ssh
 111/tcp   open  rpcbind
@@ -107,5 +131,7 @@ IP: 150.163.214.100 - Host: template-pesq.coids.inpe.br
 ------------------------
 IP: 150.163.214.230 - Host: zagrebe.coids.inpe.br
   Tipo: Fisico
-  Nenhuma porta aberta encontrada.
+  Open Ports:
+22/tcp   open  ssh
+8787/tcp open  msgsrvr
 ------------------------
