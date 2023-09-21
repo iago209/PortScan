@@ -23,12 +23,12 @@ IP: 150.163.192.11 - Host: caitaba-192.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.12 - Host: calmaria-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.13 - Host: chuva1-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.14 - Host: chuva2-192.cptec.inpe.br
@@ -39,21 +39,21 @@ IP: 150.163.192.14 - Host: chuva2-192.cptec.inpe.br
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.15 - Host: chuva3-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.16 - Host: chuvisco1-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.17 - Host: chuvisco2-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.18 - Host: chuvisco3-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
@@ -66,7 +66,7 @@ IP: 150.163.192.20 - Host: dm2-192.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.21 - Host: enchente-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open  jetdirect
 ------------------------
@@ -80,15 +80,15 @@ IP: 150.163.192.23 - Host: falaropo-192.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.24 - Host: garoa1-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.25 - Host: garoa2-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.26 - Host: garoa3-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 8080/tcp open   http-proxy
 9100/tcp open   jetdirect
@@ -98,13 +98,13 @@ IP: 150.163.192.27 - Host: gaviao-192.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.28 - Host: geada-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 8080/tcp open   http-proxy
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.29 - Host: geada2-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
@@ -163,14 +163,14 @@ IP: 150.163.192.42 - Host: myky-192.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.43 - Host: neve-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 8080/tcp open   http-proxy
 8888/tcp open   sun-answerbook
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.44 - Host: nevoeiro-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.45 - Host: nublado1-192.cptec.inpe.br
@@ -186,7 +186,7 @@ IP: 150.163.192.47 - Host: nublado3-192.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.48 - Host: orvalho-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 8080/tcp open   http-proxy
 9100/tcp open   jetdirect
@@ -216,7 +216,7 @@ IP: 150.163.192.53 - Host: poitara-192.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.54 - Host: pororoca-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.55 - Host: primavera-192.cptec.inpe.br
@@ -244,7 +244,7 @@ IP: 150.163.192.60 - Host: tabapira-192.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.61 - Host: taixi-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open  jetdirect
 ------------------------
@@ -253,70 +253,70 @@ IP: 150.163.192.62 - Host: taoca-192.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.63 - Host: taperu-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.64 - Host: tapixaba-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.65 - Host: tempestade-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open  jetdirect
 ------------------------
 IP: 150.163.192.66 - Host: tornado-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.67 - Host: tromba-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.68 - Host: trovao-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.69 - Host: trovao2-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.70 - Host: tufao1-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.71 - Host: tumbyra-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.72 - Host: ubiru-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.73 - Host: vapor-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open  jetdirect
 ------------------------
 IP: 150.163.192.74 - Host: vento-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.75 - Host: vulcao-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------
 IP: 150.163.192.76 - Host: meteoro-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.192.77 - Host: cumulus-192.cptec.inpe.br
-  Tipo: Fisico
+  Tipo: Virtual
   Open Ports:
 9100/tcp open   jetdirect
 ------------------------

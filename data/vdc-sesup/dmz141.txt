@@ -120,19 +120,18 @@ IP: 150.163.141.21 - Host: gelo3-141.cptec.inpe.br
 IP: 150.163.141.23 - Host: chuva1.cptec.inpe.br
   Tipo: Virtual
   Open Ports:
-44/tcp    open  mpm-flags
-80/tcp    open  http
-111/tcp   open  rpcbind
-443/tcp   open  https
-514/tcp   open  shell
-4949/tcp  open  munin
-5435/tcp  open  sceanics
-7937/tcp  open  nsrexecd
-7938/tcp  open  lgtomapper
-7945/tcp  open  unknown
-7973/tcp  open  unknown
-9100/tcp  open  jetdirect
-20681/tcp open  unknown
+44/tcp   open  mpm-flags
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+514/tcp  open  shell
+4949/tcp open  munin
+5435/tcp open  sceanics
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7945/tcp open  unknown
+7973/tcp open  unknown
+9100/tcp open  jetdirect
 ------------------------
 IP: 150.163.141.24 - Host: chuva2.cptec.inpe.br
   Tipo: Virtual
@@ -148,7 +147,7 @@ IP: 150.163.141.24 - Host: chuva2.cptec.inpe.br
 7961/tcp  open  unknown
 7968/tcp  open  unknown
 9100/tcp  open  jetdirect
-43673/tcp open  unknown
+42699/tcp open  unknown
 ------------------------
 IP: 150.163.141.26 - Host: nublado2.cptec.inpe.br
   Tipo: Virtual
@@ -167,17 +166,16 @@ IP: 150.163.141.26 - Host: nublado2.cptec.inpe.br
 IP: 150.163.141.28 - Host: nublado1.cptec.inpe.br
   Tipo: Virtual
   Open Ports:
-80/tcp    open  http
-111/tcp   open  rpcbind
-443/tcp   open  https
-514/tcp   open  shell
-5435/tcp  open  sceanics
-7937/tcp  open  nsrexecd
-7938/tcp  open  lgtomapper
-7945/tcp  open  unknown
-7973/tcp  open  unknown
-9100/tcp  open  jetdirect
-20681/tcp open  unknown
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+514/tcp  open  shell
+5435/tcp open  sceanics
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+7945/tcp open  unknown
+7973/tcp open  unknown
+9100/tcp open  jetdirect
 ------------------------
 IP: 150.163.141.29 - Host: nublado3.cptec.inpe.br
   Tipo: Virtual
@@ -191,7 +189,7 @@ IP: 150.163.141.29 - Host: nublado3.cptec.inpe.br
 7961/tcp  open  unknown
 7968/tcp  open  unknown
 9100/tcp  open  jetdirect
-43673/tcp open  unknown
+42699/tcp open  unknown
 ------------------------
 IP: 150.163.141.30 - Host: chuva3.cptec.inpe.br
   Tipo: Virtual
@@ -399,7 +397,14 @@ IP: 150.163.141.62 - Host: tempestade.cptec.inpe.br
 ------------------------
 IP: 150.163.141.65 - Host: pituna.cptec.inpe.br
   Tipo: Fisico
-  Nenhuma porta aberta encontrada.
+  Open Ports:
+22/tcp    open  ssh
+111/tcp   open  rpcbind
+823/tcp   open  unknown
+2049/tcp  open  nfs
+4000/tcp  open  remoteanything
+4001/tcp  open  newoak
+48296/tcp open  unknown
 ------------------------
 IP: 150.163.141.66 - Host: pururuca.cptec.inpe.br
   Tipo: Fisico
@@ -412,8 +417,9 @@ IP: 150.163.141.67 - Host: pocanga.cptec.inpe.br
 8080/tcp open  http-proxy
 ------------------------
 IP: 150.163.141.69 - Host: royu.cptec.inpe.br
-  Tipo: Fisico
-  Nenhuma porta aberta encontrada.
+  Tipo: Virtual
+  Open Ports:
+80/tcp open  http
 ------------------------
 IP: 150.163.141.71 - Host: poitara.cptec.inpe.br
   Tipo: Virtual
@@ -438,8 +444,10 @@ IP: 150.163.141.76 - Host: mogyb.cptec.inpe.br
   Nenhuma porta aberta encontrada.
 ------------------------
 IP: 150.163.141.77 - Host: primavera.cptec.inpe.br
-  Tipo: Fisico
-  Nenhuma porta aberta encontrada.
+  Tipo: Virtual
+  Open Ports:
+80/tcp  open  http
+443/tcp open  https
 ------------------------
 IP: 150.163.141.78 - Host: gaviao.cptec.inpe.br
   Tipo: Fisico
@@ -458,8 +466,9 @@ IP: 150.163.141.80 - Host: robiapira.cptec.inpe.br
 5432/tcp open  postgresql
 ------------------------
 IP: 150.163.141.81 - Host: falaropo.cptec.inpe.br
-  Tipo: Fisico
-  Nenhuma porta aberta encontrada.
+  Tipo: Virtual
+  Open Ports:
+80/tcp  open   http
 ------------------------
 IP: 150.163.141.83 - Host: dm2.cptec.inpe.br
   Tipo: Virtual
@@ -484,7 +493,6 @@ IP: 150.163.141.85 - Host: geada.cptec.inpe.br
 8084/tcp open  unknown
 8085/tcp open  unknown
 9000/tcp open  cslistener
-9001/tcp open  tor-orport
 9100/tcp open  jetdirect
 ------------------------
 IP: 150.163.141.87 - Host: trovao2.cptec.inpe.br
